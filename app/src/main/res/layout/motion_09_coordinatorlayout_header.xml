@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_motion_layout"
+    app:layoutDescription="@xml/activity_collapsing_toolbar_layout_motion_scene"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:fitsSystemWindows="false"
+    app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@color/teal_200"
+        android:src="@drawable/image"/>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+        android:text="Monterey"
+        android:textColor="#FFF"
+        android:textSize="32dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

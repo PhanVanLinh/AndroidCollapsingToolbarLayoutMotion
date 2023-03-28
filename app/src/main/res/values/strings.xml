@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidCollapsingToolbarLayoutMotion</string>
+    <string name="long_content">If you use MotionLayout only to do a collapsing toolbar, it might not be the most efficient solution, as MotionLayout is a powerful but relatively heavy component that can have an impact on performance.
+
+AppBarLayout, on the other hand, is specifically designed to provide the collapsing behavior of the toolbar, and it comes with built-in scrolling behaviors and optimizations that can provide better performance.
+
+Using MotionLayout alone may also require more effort and time to set up, as it requires defining keyframes and constraints to create the animation sequence, whereas AppBarLayout provides a simpler and more straightforward way to create a collapsing toolbar.
+
+Moreover, using AppBarLayout instead of MotionLayout for the collapsing toolbar ensures consistency with the standard Android Material Design guidelines, which can help users navigate the app more easily.
+
+Overall, while MotionLayout provides advanced animation capabilities, it may not be the optimal solution for implementing a collapsing toolbar. It is recommended to use the dedicated AppBarLayout component for this purpose to ensure better performance and consistency with the Material Design guidelines.</string>
+</resources>
